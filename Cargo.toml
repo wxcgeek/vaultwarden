@@ -13,7 +13,7 @@ publish = false
 build = "build.rs"
 
 [features]
-default = ["sqlite","vendored_openssl"]
+default = ["sqlite"]
 # Empty to keep compatibility, prefer to set USE_SYSLOG=true
 enable_syslog = []
 mysql = ["diesel/mysql", "diesel_migrations/mysql"]
