@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file /docker/amd64/Dockerfile.alpine --tag bitward
+      run: docker build . --file Dockerfile --tag bitward
     - name: Build the Docker image
       run: docker save -o bitward.tar
       
