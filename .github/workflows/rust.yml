@@ -25,5 +25,5 @@ jobs:
     # Artifact name
         name: bitward
     # A file, directory or wildcard pattern that describes what to upload
-        path: /home/runner/work/vaultwarden/vaultwarden
+        path: /home/runner/work/vaultwarden/vaultwarden/target/release/vaultwarden
     # The desired behavior if no files are found using the provided path.
